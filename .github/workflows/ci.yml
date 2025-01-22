@@ -36,7 +36,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t my-app         
+          docker build -t my-app .         
 
       - name: Run tests with pytest inside Docker container
         run: |
